@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:wght@300;400;500;700&family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sofia&display=swap');
+
+/*
+font-family: 'Anton', sans-serif;
+font-family: 'Gugi', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sofia', cursive;
+*/
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a,
+a:link,
+a:visited{
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+section,span,p{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.header{
+    background-image: url(img/sliderv2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.header-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+    padding-bottom: 35px ;
+}
+
+.logo{
+    font-size: 26px;
+    letter-spacing: 4px;
+    padding-bottom: 10px;
+    font-family: 'Press Start 2P', cursive;
+    transition: 2.3s;
+    cursor: default;
+    color: wheat;
+}
+.logo:hover{
+    border-bottom: 1px solid rgb(209, 26, 163);
+    color: rgb(209, 26, 163);
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    margin-left: 27px;
+}
+
+.menu-tag:hover{
+    border-bottom: 1px solid rgb(209, 26, 163);
+    color: rgb(209, 26, 163);
+}
+
+a{
+    color: wheat;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 1s;
+}
+
+.header-text{
+    position: absolute; /*left and right locate*/
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%); /* center by x coordinate system  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+font-size: 8.5rem;
+font-weight: 100;
+line-height: 0.4;
+letter-spacing: 2px;
+font-family: 'Herr Von Moellerhoff', cursive;
+color: rgb(209, 26, 163);
+margin-bottom: 35px;
+}
+.first-letter{
+    font-size: 10.3rem;
+    font-family: 'Herr Von Moellerhoff', cursive;
+}
+
+h3{
+    margin-bottom: 25px;
+    font-size: 22px;
+
+}
+
+.btn-code{
+    display: block;
+    background-color: rgb(209, 26, 163);
+    padding: 10px 15px;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-code:after{
+    content: "Join Us";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: violet;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+
+.btn-code:hover::after{
+    top:0;
+}
