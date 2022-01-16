@@ -1,6 +1,6 @@
 # responsive-scrollreveal-design
 
-## Techs 
+## Techs & Materials
 
 https://scrollrevealjs.org 
 https://www.npmjs.com 
