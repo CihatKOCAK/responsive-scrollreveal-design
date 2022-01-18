@@ -4,9 +4,9 @@ A simple one-page site designed using html css and js
 
 ## Techs & Materials
 
-<a href ="https://scrollrevealjs.org ">Scroll Reveal</a>
-<a href ="https://unsplash.com ">Unsplash</a> for imgs
-<a href ="https://fontawesome.com">Fontasesome</a> for icons
+<a href ="https://scrollrevealjs.org ">Scroll Reveal</a> <br>
+<a href ="https://unsplash.com ">Unsplash</a> for imgs <br>
+<a href ="https://fontawesome.com">Fontasesome</a> for icons <br>
 
 ## Run Locally
 
