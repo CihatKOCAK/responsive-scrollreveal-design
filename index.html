@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Simple</title>
     <script
       src="https://kit.fontawesome.com/c56df90e5c.js"
@@ -21,12 +22,13 @@
               <h2 class="logo">CODE</h2>
             </div>
             <div class="header-menu">
-              <ul>
+              <ul id="menuItems">
                 <li><a href="#" class="menu-tag"> Home</a></li>
                 <li><a href="#" class="menu-tag"> About</a></li>
                 <li><a href="#" class="menu-tag"> Discover</a></li>
                 <li><a href="#" class="menu-tag"> Content</a></li>
               </ul>
+              <i class="fas fa-bars" id="menu-ico" onclick="menuToggle()"></i>
             </div>
           </div>
           <div class="header-text">
@@ -47,10 +49,10 @@
             <h2>ABOUT</h2>
           </div>
           <div class="about-content">
-            <div class="about-img">
+            <div class="about-img anime-left">
               <img src="./img/about.jpg" alt="" />
             </div>
-            <div class="about-text">
+            <div class="about-text anime-right">
               <h4>Our Story</h4>
               <div id="algorithm">
                 <img src="./img/algorithm.ico" alt="" />
@@ -70,49 +72,49 @@
     <!--PORTFOLIO START-->
     <section id="portfolio">
       <div class="portfolio">
-        <div class="portfolio-item">
+        <div class="portfolio-item ani1">
           <img src="./img/01.jpg" alt="" />
           <div class="overlay">
             <p>Server</p>
           </div>
         </div>
-        <div class="portfolio-item">
+        <div class="portfolio-item ani2">
           <img src="./img/02.jpg" alt="" />
           <div class="overlay">
             <p>Coding</p>
           </div>
         </div>
-        <div class="portfolio-item">
+        <div class="portfolio-item ani3">
           <img src="./img/03.jpg" alt="" />
           <div class="overlay">
             <p>Python</p>
           </div>
         </div>
-        <div class="portfolio-item">
+        <div class="portfolio-item ani4">
           <img src="./img/04.jpg" alt="" />
           <div class="overlay">
             <p>php</p>
           </div>
         </div>
-        <div class="portfolio-item">
+        <div class="portfolio-item ani5">
           <img src="./img/05.jpg" alt="" />
           <div class="overlay">
             <p>js</p>
           </div>
         </div>
-        <div class="portfolio-item">
+        <div class="portfolio-item ani6">
           <img src="./img/06.jpg" alt="" />
           <div class="overlay">
             <p>java</p>
           </div>
         </div>
-        <div class="portfolio-item">
+        <div class="portfolio-item ani7">
           <img src="./img/07.jpg" alt="" />
           <div class="overlay">
             <p>SQL</p>
           </div>
         </div>
-        <div class="portfolio-item">
+        <div class="portfolio-item ani8">
           <img src="./img/08.jpg" alt="" />
           <div class="overlay">
             <p>Relax</p>
@@ -130,10 +132,10 @@
             <h2>Discover</h2>
           </div>
           <div class="about-content">
-            <div class="about-img">
+            <div class="about-img anime-left">
               <img src="./img/discover.jpg" alt="" />
             </div>
-            <div class="about-text">
+            <div class="about-text anime-right">
               <h4>Ask Us!</h4>
               <div id="algorithm">
                 <img src="./img/algorithm.ico" alt="" />
@@ -158,17 +160,17 @@
             <h2>CONTACT</h2>
           </div>
           <div class="contact-content">
-            <div class="contact-item">
+            <div class="contact-item anime-top">
               <i class="fas fa-phone"></i>
               <p>0553 415 45 **</p>
               <br />
               <p>0212 487 45 **</p>
             </div>
-            <div class="contact-item">
+            <div class="contact-item anime-bottom">
               <i class="fas fa-map-marker-alt"></i>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
             </div>
-            <div class="contact-item">
+            <div class="contact-item anime-top">
               <i class="fas fa-envelope-open"></i>
               <p>codding_us@gmail.com</p>
             </div>
@@ -189,9 +191,9 @@
           </div>
           <nav class="footer-social">
             <ul>
-              <li><a href="#" class="fab fa-google-plus-g"></a>
-                <a href="#" class="fab fa-twitter">
-                  <a href="#" class="fab fa-facebook-f"></a>
+              <li><a href="#"> <i class="fab fa-google-plus-g"></i></a>
+                <a href="#">  <i class="fab fa-twitter"></i> </a>
+                  <a href="#">  <i class="fab fa-facebook-f"></i></a>
                 </a></li>
             </ul>
           </nav>
@@ -199,5 +201,10 @@
       </div>
     </footer>
     <!--FOOTER FINISH-->
-  </body>
+
+
+  <script src="./js/responsive.js"></script>
+  <script src="./js/scrollrevealjs-config.js"></script>
+
+ </body>
 </html>
